@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapport d'Analyse des Offres d'Emploi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            text-align: center;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #764ba2;
+            margin-top: 30px;
+            border-left: 5px solid #764ba2;
+            padding-left: 15px;
+        }
+        .stat-box {
+            display: inline-block;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+            min-width: 250px;
+        }
+        .stat-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background: #667eea;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background: #f5f5f5;
+        }
+        .skill-item {
+            display: inline-block;
+            background: #e7f3ff;
+            color: #0066cc;
+            padding: 5px 12px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+            border: 1px solid #0066cc;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #999;
+            font-size: 12px;
+        }
+        .chart {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Rapport d'Analyse des Offres d'Emploi</h1>
+
+        <h2>📈 Statistiques Générales</h2>
+        <div class="stat-box">
+            <div class="stat-value">44</div>
+            <div class="stat-label">Offres collectées</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value">1</div>
+            <div class="stat-label">Région(s) couverte(s)</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value">55</div>
+            <div class="stat-label">Compétences identifiées</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value">1033</div>
+            <div class="stat-label">Longueur moyenne des descriptions (caractères)</div>
+        </div>
+
+        <h2>🌍 Répartition Géographique</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Région</th>
+                    <th>Nombre d'offres</th>
+                    <th>Pourcentage</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>Maroc (Diverse)</td>
+                    <td>44</td>
+                    <td>100.0%</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h2>🔧 Top 10 Compétences Demandées</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Classement</th>
+                    <th>Compétence</th>
+                    <th>Nombre d'offres</th>
+                    <th>Pourcentage</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <td><span class="skill-item">architecture</span></td>
+                    <td>14</td>
+                    <td>31.8%</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td><span class="skill-item">agile</span></td>
+                    <td>7</td>
+                    <td>15.9%</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td><span class="skill-item">infrastructure</span></td>
+                    <td>6</td>
+                    <td>13.6%</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td><span class="skill-item">network</span></td>
+                    <td>6</td>
+                    <td>13.6%</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td><span class="skill-item">sap</span></td>
+                    <td>5</td>
+                    <td>11.4%</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td><span class="skill-item">python</span></td>
+                    <td>4</td>
+                    <td>9.1%</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td><span class="skill-item">java</span></td>
+                    <td>4</td>
+                    <td>9.1%</td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td><span class="skill-item">aws</span></td>
+                    <td>4</td>
+                    <td>9.1%</td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td><span class="skill-item">sécurité</span></td>
+                    <td>3</td>
+                    <td>6.8%</td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td><span class="skill-item">zos</span></td>
+                    <td>3</td>
+                    <td>6.8%</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h2>📊 Analyse des Descriptions</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Métrique</th>
+                    <th>Valeur</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Longueur moyenne (caractères)</td>
+                    <td>1033</td>
+                </tr>
+                <tr>
+                    <td>Longueur minimale (caractères)</td>
+                    <td>325</td>
+                </tr>
+                <tr>
+                    <td>Longueur maximale (caractères)</td>
+                    <td>2293</td>
+                </tr>
+                <tr>
+                    <td>Nombre moyen de tokens</td>
+                    <td>107</td>
+                </tr>
+                <tr>
+                    <td>Nombre moyen de compétences par offre</td>
+                    <td>2.82</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>💡 Observations Clés</h2>
+        <ul>
+            <li><strong>Compétences dominantes :</strong> Les technologies architecture, agile, infrastructure sont les plus demandées.</li>
+            <li><strong>Profondeur des descriptions :</strong> Les descriptions contiennent en moyenne 1033 caractères, indiquant des offres bien détaillées.</li>
+            <li><strong>Demande diversifiée :</strong> 55 compétences uniques ont été identifiées, montrant une demande variée du marché.</li>
+            <li><strong>Richesse des données :</strong> Chaque offre mentionne en moyenne 2.8 compétences techniques.</li>
+        </ul>
+
+        <div class="footer">
+            <p>Rapport généré le 27/04/2026 à 19:19:58</p>
+            <p>Source : Données d'offres d'emploi nettoyées et analysées</p>
+        </div>
+    </div>
+</body>
+</html>
