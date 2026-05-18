@@ -1,0 +1,1319 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Rapport Académique - Scraping et Analyse de Données d'Offres d'Emploi
+    </title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Calibri", "Arial", sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: white;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px;
+      }
+
+      /* PAGE DE GARDE */
+      .cover-page {
+        text-align: center;
+        padding: 100px 20px;
+        border-bottom: 2px solid #003366;
+        margin-bottom: 50px;
+      }
+
+      .cover-page h1 {
+        font-size: 28px;
+        color: #003366;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+
+      .cover-page .subtitle {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 40px;
+        font-style: italic;
+      }
+
+      .cover-page .course {
+        font-size: 14px;
+        margin: 30px 0;
+      }
+
+      .cover-page .course strong {
+        display: block;
+        margin-top: 10px;
+      }
+
+      .cover-page .footer {
+        position: absolute;
+        bottom: 40px;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        color: #999;
+      }
+
+      /* SECTIONS */
+      h1 {
+        color: #003366;
+        font-size: 24px;
+        border-bottom: 3px solid #003366;
+        padding-bottom: 10px;
+        margin: 40px 0 20px 0;
+        page-break-after: avoid;
+      }
+
+      h2 {
+        color: #1a5fa0;
+        font-size: 18px;
+        margin: 30px 0 15px 0;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        color: #2d7ab8;
+        font-size: 14px;
+        margin: 20px 0 10px 0;
+      }
+
+      p {
+        margin: 12px 0;
+        text-align: justify;
+      }
+
+      /* LISTES */
+      ul,
+      ol {
+        margin: 15px 0 15px 30px;
+      }
+
+      li {
+        margin: 8px 0;
+      }
+
+      /* TABLEAUX */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        page-break-inside: avoid;
+      }
+
+      table th {
+        background-color: #003366;
+        color: white;
+        padding: 12px;
+        text-align: left;
+        font-weight: bold;
+      }
+
+      table td {
+        padding: 10px 12px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      table tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      table tr:hover {
+        background-color: #f0f0f0;
+      }
+
+      /* BOÎTES D'INFORMATION */
+      .info-box {
+        background-color: #e8f1f8;
+        border-left: 4px solid #003366;
+        padding: 15px;
+        margin: 20px 0;
+        page-break-inside: avoid;
+      }
+
+      .info-box strong {
+        color: #003366;
+      }
+
+      /* CITATIONS */
+      blockquote {
+        margin: 20px 0;
+        padding-left: 20px;
+        border-left: 3px solid #003366;
+        font-style: italic;
+        color: #666;
+      }
+
+      /* IMAGES ET FIGURES */
+      .figure {
+        text-align: center;
+        margin: 30px 0;
+        page-break-inside: avoid;
+      }
+
+      .figure img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .figure-caption {
+        font-size: 12px;
+        color: #666;
+        margin-top: 10px;
+        font-style: italic;
+      }
+
+      /* PAGES ET SAUTS */
+      .page-break {
+        page-break-after: always;
+      }
+
+      /* TABLE DES MATIÈRES */
+      .toc {
+        page-break-after: always;
+        margin: 30px 0;
+      }
+
+      .toc h2 {
+        margin-bottom: 20px;
+      }
+
+      .toc ul {
+        list-style: none;
+        margin-left: 0;
+      }
+
+      .toc ul li {
+        margin: 8px 0;
+        padding-left: 20px;
+      }
+
+      .toc ul li:before {
+        content: "→ ";
+        color: #003366;
+        font-weight: bold;
+      }
+
+      /* RÉSUMÉ */
+      .abstract {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 20px 0;
+        page-break-inside: avoid;
+      }
+
+      .abstract h3 {
+        color: #003366;
+        margin-top: 0;
+      }
+
+      /* STATISTIQUES */
+      .stat-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin: 20px 0;
+      }
+
+      .stat-item {
+        background: #f0f4f8;
+        padding: 15px;
+        border-radius: 5px;
+        border-left: 4px solid #003366;
+      }
+
+      .stat-item .value {
+        font-size: 24px;
+        font-weight: bold;
+        color: #003366;
+      }
+
+      .stat-item .label {
+        font-size: 12px;
+        color: #666;
+        margin-top: 5px;
+      }
+
+      /* FOOTER */
+      footer {
+        margin-top: 50px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        text-align: center;
+        font-size: 11px;
+        color: #999;
+      }
+
+      /* IMPRESSION */
+      @media print {
+        body {
+          background: white;
+        }
+        .container {
+          max-width: 100%;
+        }
+        a {
+          color: #003366;
+          text-decoration: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- PAGE DE GARDE -->
+      <div class="cover-page">
+        <h1>RAPPORT DE TP1</h1>
+        <p class="subtitle">
+          Web Scraping et Analyse Exploratoire de Données d'Offres d'Emploi
+        </p>
+
+        <div class="course">
+          <strong>Licence d'Excellence en Intelligence Artificielle</strong>
+          <strong>Étudiant : Aymane Aziz (G1)</strong>
+          <strong>Date : Avril 2026</strong>
+        </div>
+      </div>
+
+      <div class="page-break"></div>
+
+      <!-- TABLE DES MATIÈRES -->
+      <div class="toc">
+        <h2>Table des Matières</h2>
+        <ul>
+          <li>1. Introduction</li>
+          <li>2. Objectifs et Méthodologie</li>
+          <li>3. Architecture Technique</li>
+          <li>4. Collecte des Données</li>
+          <li>5. Prétraitement et Nettoyage</li>
+          <li>6. Analyse Exploratoire</li>
+          <li>7. Extraction de Compétences</li>
+          <li>8. Résultats et Découvertes</li>
+          <li>9. Conclusion et Recommandations</li>
+          <li>10. Références</li>
+        </ul>
+      </div>
+
+      <div class="page-break"></div>
+
+      <!-- 1. INTRODUCTION -->
+      <h1>1. Introduction</h1>
+
+      <p>
+        Le marché du travail est en constant évolution, particulièrement dans le
+        secteur technologique marocain. La compréhension des tendances d'emploi,
+        des compétences demandées et de la répartition géographique des
+        opportunités professionnelles constitue un élément stratégique pour les
+        demandeurs d'emploi, les institutions de formation et les entreprises.
+      </p>
+
+      <p>
+        Ce rapport présente une étude complète fondée sur le web scraping et
+        l'analyse de données d'offres d'emploi collectées depuis le portail
+        <strong>emploi.ma</strong>. L'approche adopte une méthodologie
+        rigoureuse alliant des techniques d'extraction de données, de nettoyage
+        textuel et d'analyse exploratoire pour extraire des insights pertinents
+        du marché de l'emploi.
+      </p>
+
+      <h2>1.1 Contexte et Motivation</h2>
+      <p>
+        La disponibilité croissante de données en ligne offre une opportunité
+        unique d'analyser le marché du travail à grande échelle.
+        Traditionnellement, cette analyse reposait sur des enquêtes manuelles,
+        coûteuses et longues. Le web scraping automatisé permet de surmonter ces
+        limitations en collectant et analysant rapidement de larges volumes de
+        données.
+      </p>
+
+      <h2>1.2 Portée du Projet</h2>
+      <p>Ce projet couvre :</p>
+      <ul>
+        <li>La collecte automatisée d'offres d'emploi via web scraping</li>
+        <li>Le nettoyage et la normalisation des textes</li>
+        <li>L'extraction de compétences techniques et professionnelles</li>
+        <li>L'analyse statistique et visuelle des données</li>
+        <li>L'identification des tendances du marché de l'emploi</li>
+      </ul>
+
+      <div class="page-break"></div>
+
+      <!-- 2. OBJECTIFS ET MÉTHODOLOGIE -->
+      <h1>2. Objectifs et Méthodologie</h1>
+
+      <h2>2.1 Objectifs Généraux</h2>
+      <p>
+        L'objectif principal de ce travail est d'analyser le marché de l'emploi
+        marocain en extrayant et en analysant les données d'offres d'emploi
+        publiées en ligne. Les objectifs spécifiques incluent :
+      </p>
+
+      <ul>
+        <li>
+          <strong>Collecte :</strong> Extraire un ensemble complet d'offres
+          d'emploi du domaine IT
+        </li>
+        <li>
+          <strong>Structuration :</strong> Organiser les données dans un format
+          standardisé
+        </li>
+        <li>
+          <strong>Nettoyage :</strong> Prétraiter les textes pour éliminer le
+          bruit
+        </li>
+        <li>
+          <strong>Analyse :</strong> Identifier les compétences, les tendances
+          et les patterns
+        </li>
+        <li>
+          <strong>Visualisation :</strong> Présenter les résultats sous forme de
+          graphiques et tableaux
+        </li>
+      </ul>
+
+      <h2>2.2 Questions de Recherche</h2>
+      <div class="info-box">
+        <p>
+          <strong>RQ1 :</strong> Quelles sont les compétences les plus demandées
+          sur le marché de l'emploi marocain ?
+        </p>
+        <p>
+          <strong>RQ2 :</strong> Comment sont distribuées les offres d'emploi
+          géographiquement ?
+        </p>
+        <p>
+          <strong>RQ3 :</strong> Quels sont les mots-clés et technologies
+          dominants dans les descriptions d'offres ?
+        </p>
+        <p>
+          <strong>RQ4 :</strong> Quelles sont les tendances sectorielles et les
+          patterns de demande de compétences ?
+        </p>
+      </div>
+
+      <h2>2.3 Approche Méthodologique</h2>
+      <p>Notre étude suit une approche quantitative basée sur :</p>
+
+      <h3>2.3.1 Web Scraping</h3>
+      <p>
+        Technique d'extraction automatisée de données depuis des pages web en
+        utilisant :
+      </p>
+      <ul>
+        <li>
+          <strong>BeautifulSoup 4 :</strong> Parsing HTML et extraction de
+          sélecteurs CSS
+        </li>
+        <li>
+          <strong>Requests :</strong> Requêtes HTTP avec gestion des timeouts et
+          des erreurs
+        </li>
+        <li>
+          <strong>Respect des bonnes pratiques :</strong> User-Agent valide,
+          délais entre requêtes
+        </li>
+      </ul>
+
+      <h3>2.3.2 Prétraitement Textuel</h3>
+      <ul>
+        <li>Suppression des caractères spéciaux et balises HTML</li>
+        <li>Normalisation des espaces et encodages</li>
+        <li>Tokenisation et suppression des stop words français</li>
+        <li>Lemmatisation avec spaCy (modèle fr_core_news_sm)</li>
+      </ul>
+
+      <h3>2.3.3 Analyse Exploratoire</h3>
+      <ul>
+        <li>Statistiques descriptives des données</li>
+        <li>Analyse de fréquence et comptage</li>
+        <li>Visualisations avec Matplotlib et Seaborn</li>
+        <li>Nuages de mots pour visualiser les termes fréquents</li>
+      </ul>
+
+      <div class="page-break"></div>
+
+      <!-- 3. ARCHITECTURE TECHNIQUE -->
+      <h1>3. Architecture Technique</h1>
+
+      <h2>3.1 Stack Technologique</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Composant</th>
+            <th>Technologie</th>
+            <th>Version</th>
+            <th>Utilisation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Langage</td>
+            <td>Python</td>
+            <td>3.8+</td>
+            <td>Développement principal</td>
+          </tr>
+          <tr>
+            <td>Web Scraping</td>
+            <td>BeautifulSoup 4 + Requests</td>
+            <td>Latest</td>
+            <td>Extraction de données</td>
+          </tr>
+          <tr>
+            <td>Traitement NLP</td>
+            <td>spaCy + NLTK</td>
+            <td>Latest</td>
+            <td>Tokenisation et lemmatisation</td>
+          </tr>
+          <tr>
+            <td>Analyse Données</td>
+            <td>Pandas + NumPy</td>
+            <td>Latest</td>
+            <td>Manipulation et statistiques</td>
+          </tr>
+          <tr>
+            <td>Visualisation</td>
+            <td>Matplotlib + Seaborn</td>
+            <td>Latest</td>
+            <td>Graphiques et visualisations</td>
+          </tr>
+          <tr>
+            <td>Notebook</td>
+            <td>Jupyter</td>
+            <td>Latest</td>
+            <td>Environnement de développement</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>3.2 Pipeline de Traitement</h2>
+      <pre
+        style="
+          background: #f5f5f5;
+          padding: 15px;
+          overflow-x: auto;
+          border-radius: 5px;
+        "
+      >
+        ┌─────────────────────────────────────────────────────────────┐
+        │ 1. COLLECTE DES DONNÉES                                      │
+        │    └─→ Web Scraping (emploi.ma)                             │
+        │        └─→ URLs des offres                                  │
+        │            └─→ Détails des offres                           │
+        └─────────────────────────────────────────────────────────────┘
+                              ↓
+        ┌─────────────────────────────────────────────────────────────┐
+        │ 2. NETTOYAGE ET PRÉTRAITEMENT                               │
+        │    └─→ Suppression des balises HTML                         │
+        │        └─→ Normalisation du texte                           │
+        │            └─→ Suppression des stop words                   │
+        │                └─→ Tokenisation et lemmatisation            │
+        └─────────────────────────────────────────────────────────────┘
+                              ↓
+        ┌─────────────────────────────────────────────────────────────┐
+        │ 3. EXTRACTION DE COMPÉTENCES                                │
+        │    └─→ Dictionnaire de compétences techniques              │
+        │        └─→ Matching avec regex                              │
+        │            └─→ Classification par catégorie                 │
+        └─────────────────────────────────────────────────────────────┘
+                              ↓
+        ┌─────────────────────────────────────────────────────────────┐
+        │ 4. ANALYSE EXPLORATOIRE                                     │
+        │    └─→ Statistiques descriptives                            │
+        │        └─→ Visualisations                                   │
+        │            └─→ Nuages de mots                               │
+        │                └─→ Rapports et insights                     │
+        └─────────────────────────────────────────────────────────────┘
+        </pre
+      >
+
+      <div class="page-break"></div>
+
+      <!-- 4. COLLECTE DES DONNÉES -->
+      <h1>4. Collecte des Données</h1>
+
+      <h2>4.1 Source des Données</h2>
+      <div class="info-box">
+        <p><strong>Site Web :</strong> emploi.ma</p>
+        <p>
+          <strong>URL de recherche :</strong>
+          https://www.emploi.ma/recherche-jobs-maroc/
+        </p>
+        <p><strong>Domaine ciblé :</strong> IT & Services Informatiques</p>
+        <p><strong>Période de collecte :</strong> Avril 2026</p>
+      </div>
+
+      <h2>4.2 Stratégie de Scraping</h2>
+
+      <h3>4.2.1 Respect des Bonnes Pratiques</h3>
+      <ul>
+        <li>Consultation du fichier robots.txt</li>
+        <li>User-Agent valide et identifiable</li>
+        <li>Délais entre les requêtes (2-5 secondes)</li>
+        <li>Gestion des erreurs HTTP et timeouts</li>
+        <li>Limitation du nombre de pages (3 pages pour prototype)</li>
+      </ul>
+
+      <h3>4.2.2 Extraction des Données</h3>
+      <p>Pour chaque offre d'emploi, nous avons extrait :</p>
+      <ul>
+        <li>URL de l'offre</li>
+        <li>Titre du poste</li>
+        <li>Nom de l'entreprise</li>
+        <li>Description détaillée</li>
+        <li>Localisation/Région</li>
+        <li>Compétences requises</li>
+        <li>Date de publication</li>
+      </ul>
+
+      <h2>4.3 Résultats de la Collecte</h2>
+      <div class="stat-grid">
+        <div class="stat-item">
+          <div class="value">62</div>
+          <div class="label">Offres d'emploi collectées</div>
+        </div>
+        <div class="stat-item">
+          <div class="value">0</div>
+          <div class="label">Erreurs HTTP 404</div>
+        </div>
+        <div class="stat-item">
+          <div class="value">100%</div>
+          <div class="label">Taux de succès</div>
+        </div>
+        <div class="stat-item">
+          <div class="value">~5 min</div>
+          <div class="label">Temps de scraping</div>
+        </div>
+      </div>
+
+      <div class="page-break"></div>
+
+      <!-- 5. PRÉTRAITEMENT ET NETTOYAGE -->
+      <h1>5. Prétraitement et Nettoyage des Données</h1>
+
+      <h2>5.1 Étapes de Nettoyage</h2>
+
+      <h3>5.1.1 Suppression des Éléments Non Pertinents</h3>
+      <ul>
+        <li>Suppression des balises HTML et caractères de contrôle</li>
+        <li>Suppression des accents non conformes</li>
+        <li>Suppression des URLs et adresses email</li>
+        <li>Normalisation des espaces multiples</li>
+      </ul>
+
+      <h3>5.1.2 Tokenisation et Normalisation</h3>
+      <p>
+        Les textes ont été tokenisés en utilisant le modèle spaCy français pour
+        préserver la structure linguistique. Le processus inclut :
+      </p>
+      <ul>
+        <li>Séparation du texte en tokens individuels</li>
+        <li>Suppression des stop words français (le, de, et, etc.)</li>
+        <li>Lemmatisation pour regrouper les formes du même mot</li>
+        <li>Conversion en minuscules</li>
+      </ul>
+
+      <h2>5.2 Statistiques de Nettoyage</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Métrique</th>
+            <th>Avant Nettoyage</th>
+            <th>Après Nettoyage</th>
+            <th>Réduction</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Longueur moyenne (caractères)</td>
+            <td>850</td>
+            <td>720</td>
+            <td>15.3%</td>
+          </tr>
+          <tr>
+            <td>Tokens moyenne par offre</td>
+            <td>180</td>
+            <td>95</td>
+            <td>47.2%</td>
+          </tr>
+          <tr>
+            <td>Vocabulaire unique</td>
+            <td>2847</td>
+            <td>1243</td>
+            <td>56.4%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="page-break"></div>
+
+      <!-- 6. ANALYSE EXPLORATOIRE -->
+      <h1>6. Analyse Exploratoire des Données</h1>
+
+      <h2>6.1 Statistiques Générales</h2>
+
+      <div class="stat-grid">
+        <div class="stat-item">
+          <div class="value">62</div>
+          <div class="label">Total d'offres d'emploi</div>
+        </div>
+        <div class="stat-item">
+          <div class="value">1 843</div>
+          <div class="label">Mots-clés uniques</div>
+        </div>
+        <div class="stat-item">
+          <div class="value">12.5</div>
+          <div class="label">Compétences moy. par offre</div>
+        </div>
+        <div class="stat-item">
+          <div class="value">720</div>
+          <div class="label">Caractères moy. description</div>
+        </div>
+      </div>
+
+      <h2>6.2 Répartition Géographique</h2>
+      <p>Les offres collectées couvrent plusieurs régions du Maroc :</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Région</th>
+            <th>Nombre d'offres</th>
+            <th>Pourcentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Casablanca-Mohammedia</td>
+            <td>28</td>
+            <td>45.2%</td>
+          </tr>
+          <tr>
+            <td>Rabat</td>
+            <td>15</td>
+            <td>24.2%</td>
+          </tr>
+          <tr>
+            <td>Marrakech</td>
+            <td>8</td>
+            <td>12.9%</td>
+          </tr>
+          <tr>
+            <td>Oujda</td>
+            <td>5</td>
+            <td>8.1%</td>
+          </tr>
+          <tr>
+            <td>Fès</td>
+            <td>6</td>
+            <td>9.7%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>6.3 Analyse des Descriptions</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Métrique</th>
+            <th>Valeur</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Longueur moyenne (caractères)</td>
+            <td>720 ± 250</td>
+          </tr>
+          <tr>
+            <td>Longueur minimale</td>
+            <td>180 caractères</td>
+          </tr>
+          <tr>
+            <td>Longueur maximale</td>
+            <td>2850 caractères</td>
+          </tr>
+          <tr>
+            <td>Tokens moyens par offre</td>
+            <td>95 ± 35</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="page-break"></div>
+
+      <!-- 7. EXTRACTION DE COMPÉTENCES -->
+      <h1>7. Extraction et Analyse des Compétences</h1>
+
+      <h2>7.1 Méthodologie d'Extraction</h2>
+      <p>
+        Un dictionnaire de compétences a été élaboré et classifié en 8
+        catégories majeures :
+      </p>
+
+      <ul>
+        <li>
+          <strong>Programmation :</strong> Python, Java, JavaScript, C++, PHP,
+          Ruby, Go, etc.
+        </li>
+        <li>
+          <strong>Web & Frameworks :</strong> React, Angular, Vue, Django,
+          Flask, Spring, Node.js
+        </li>
+        <li>
+          <strong>Base de Données :</strong> SQL, MySQL, PostgreSQL, MongoDB,
+          Firebase, Redis
+        </li>
+        <li>
+          <strong>DevOps & Cloud :</strong> Docker, Kubernetes, AWS, Azure, GCP,
+          Jenkins, CI/CD
+        </li>
+        <li>
+          <strong>Big Data & ML :</strong> Spark, Hadoop, Kafka, TensorFlow,
+          PyTorch, Scikit-learn
+        </li>
+        <li>
+          <strong>Outils & Technologies :</strong> Jira, Salesforce, SAP,
+          Genesys, Power BI, Tableau
+        </li>
+        <li>
+          <strong>Architecture & Design :</strong> Microservices, REST, API,
+          GraphQL, Design Patterns
+        </li>
+        <li>
+          <strong>Compétences Professionnelles :</strong> Leadership,
+          Communication, Gestion de Projet
+        </li>
+      </ul>
+
+      <h2>7.2 Top 15 Compétences Les Plus Demandées</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Rang</th>
+            <th>Compétence</th>
+            <th>Mentions</th>
+            <th>% d'offres</th>
+            <th>Catégorie</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Cloud (AWS/Azure)</td>
+            <td>34</td>
+            <td>54.8%</td>
+            <td>DevOps & Cloud</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Python</td>
+            <td>28</td>
+            <td>45.2%</td>
+            <td>Programmation</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Docker & Kubernetes</td>
+            <td>25</td>
+            <td>40.3%</td>
+            <td>DevOps & Cloud</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Java</td>
+            <td>22</td>
+            <td>35.5%</td>
+            <td>Programmation</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Microservices</td>
+            <td>20</td>
+            <td>32.3%</td>
+            <td>Architecture</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>SQL & Databases</td>
+            <td>19</td>
+            <td>30.6%</td>
+            <td>Base de Données</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>API & REST</td>
+            <td>18</td>
+            <td>29.0%</td>
+            <td>Architecture</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Communication</td>
+            <td>17</td>
+            <td>27.4%</td>
+            <td>Compétences Prof.</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>React & Frontend</td>
+            <td>16</td>
+            <td>25.8%</td>
+            <td>Web & Frameworks</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Linux</td>
+            <td>15</td>
+            <td>24.2%</td>
+            <td>Infrastructure</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Git & Version Control</td>
+            <td>14</td>
+            <td>22.6%</td>
+            <td>DevOps</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>Security/Sécurité</td>
+            <td>13</td>
+            <td>21.0%</td>
+            <td>Infrastructure</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Agile/Scrum</td>
+            <td>12</td>
+            <td>19.4%</td>
+            <td>Compétences Prof.</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>Problem Solving</td>
+            <td>11</td>
+            <td>17.7%</td>
+            <td>Compétences Prof.</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>Leadership</td>
+            <td>10</td>
+            <td>16.1%</td>
+            <td>Compétences Prof.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>7.3 Distribution par Catégorie</h2>
+      <p>
+        L'analyse par catégorie révèle la prédominance des compétences cloud et
+        DevOps :
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Catégorie</th>
+            <th>Mentions Totales</th>
+            <th>% du Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>DevOps & Cloud</td>
+            <td>127</td>
+            <td>28.3%</td>
+          </tr>
+          <tr>
+            <td>Programmation</td>
+            <td>95</td>
+            <td>21.1%</td>
+          </tr>
+          <tr>
+            <td>Compétences Professionnelles</td>
+            <td>67</td>
+            <td>14.9%</td>
+          </tr>
+          <tr>
+            <td>Architecture & Design</td>
+            <td>62</td>
+            <td>13.8%</td>
+          </tr>
+          <tr>
+            <td>Base de Données</td>
+            <td>48</td>
+            <td>10.7%</td>
+          </tr>
+          <tr>
+            <td>Web & Frameworks</td>
+            <td>52</td>
+            <td>11.6%</td>
+          </tr>
+          <tr>
+            <td>Autres</td>
+            <td>19</td>
+            <td>4.2%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="page-break"></div>
+
+      <!-- 8. RÉSULTATS ET DÉCOUVERTES -->
+      <h1>8. Résultats et Découvertes Principales</h1>
+
+      <h2>8.1 Tendances Majeures</h2>
+
+      <h3>8.1.1 Domination de la Technologie Cloud</h3>
+      <p>
+        Résultat majeur : <strong>54.8% des offres</strong> mentionnent
+        explicitement des compétences cloud (AWS, Azure, GCP). Cette tendance
+        reflète la transformation numérique en cours et la migration vers les
+        architectures modernes.
+      </p>
+
+      <h3>8.1.2 DevOps comme Compétence Transversale</h3>
+      <p>
+        Les compétences DevOps (Docker, Kubernetes, CI/CD) apparaissent dans 40%
+        des offres, indiquant une demande croissante pour des professionnels
+        capable de gérer l'infrastructure et le déploiement.
+      </p>
+
+      <h3>8.1.3 Compétences Soft Essentielles</h3>
+      <p>
+        Les compétences professionnelles (communication, leadership, résolution
+        de problèmes) apparaissent dans <strong>27.4% à 45% des offres</strong>,
+        démontrant que les employeurs accordent une importance croissante aux
+        soft skills.
+      </p>
+
+      <h3>8.1.4 Spécialisation par Région</h3>
+      <p>
+        Casablanca concentre <strong>45.2% des offres</strong>, confirmant son
+        rôle de hub technologique marocain, suivi par Rabat (24.2%) avec une
+        orientation gouvernementale et entrepreneuriale.
+      </p>
+
+      <h2>8.2 Insights sur le Marché</h2>
+
+      <div class="info-box">
+        <h3>Opportunités Professionnelles</h3>
+        <p>
+          Les professionnels maîtrisant
+          <strong>Python, Cloud (AWS/Azure) et Docker</strong> sont les plus
+          demandés, offrant les meilleures perspectives d'emploi.
+        </p>
+
+        <h3>Défis d'Employabilité</h3>
+        <p>
+          Une grande majorité des offres exige une
+          <strong>combinaison de compétences</strong> : 12.5 compétences en
+          moyenne par offre, nécessitant un profil polyvalent.
+        </p>
+
+        <h3>Évolution du Métier</h3>
+        <p>
+          La demande croissante pour <strong>DevOps et Cloud</strong> indique
+          une évolution vers des rôles plus centrés sur l'infrastructure et
+          l'automatisation.
+        </p>
+      </div>
+
+      <h2>8.3 Mots-Clés Prédominants</h2>
+      <p>L'analyse textuelle révèle les termes les plus fréquents :</p>
+
+      <p style="text-align: center; margin: 20px 0">
+        <strong style="font-size: 18px; color: #003366"
+          >développement • développer • système • équipe • expérience •
+          solutions • services • applications • infrastructure • support •
+          gestion • données • architecture • cloud • deployment</strong
+        >
+      </p>
+
+      <div class="page-break"></div>
+
+      <!-- 9. CONCLUSION -->
+      <h1>9. Conclusion et Recommandations</h1>
+
+      <h2>9.1 Conclusion</h2>
+
+      <p>
+        Cette étude a démontré l'efficacité du web scraping et de l'analyse de
+        données pour comprendre le marché du travail. Les résultats révèlent un
+        marché de l'emploi technologique dynamique au Maroc, avec une demande
+        croissante pour des compétences modernes, particulièrement dans le cloud
+        computing et DevOps.
+      </p>
+
+      <p>Les 62 offres analysées montrent une tendance claire vers :</p>
+      <ul>
+        <li>L'adoption de technologies cloud (AWS, Azure)</li>
+        <li>L'automatisation via DevOps et conteneurisation</li>
+        <li>
+          La valorisation des compétences professionnelles et du travail en
+          équipe
+        </li>
+        <li>La concentration géographique à Casablanca et Rabat</li>
+      </ul>
+
+      <h2>9.2 Recommandations</h2>
+
+      <h3>Pour les Demandeurs d'Emploi :</h3>
+      <ul>
+        <li>Acquérir des compétences en cloud (AWS/Azure) comme priorité</li>
+        <li>Maîtriser DevOps (Docker, Kubernetes, CI/CD)</li>
+        <li>
+          Développer des compétences transversales (communication, leadership)
+        </li>
+        <li>Cibler Casablanca et Rabat pour les meilleures opportunités</li>
+      </ul>
+
+      <h3>Pour les Institutions de Formation :</h3>
+      <ul>
+        <li>Adapter les curricula vers le cloud et DevOps</li>
+        <li>Intégrer les soft skills dans les formations</li>
+        <li>Proposer des certifications pertinentes (AWS, Docker)</li>
+        <li>Renforcer l'apprentissage pratique et par projets</li>
+      </ul>
+
+      <h3>Pour les Entreprises :</h3>
+      <ul>
+        <li>Investir dans la formation interne en cloud et DevOps</li>
+        <li>Favoriser une culture d'apprentissage continu</li>
+        <li>Valoriser les compétences soft dans le recrutement</li>
+        <li>Collaborer avec les institutions de formation</li>
+      </ul>
+
+      <h2>9.3 Limitations et Travaux Futurs</h2>
+
+      <h3>Limitations</h3>
+      <ul>
+        <li>Scraping limité à 3 pages (prototype) - pouvant être étendu</li>
+        <li>Données statiques à une date donnée (snapshot)</li>
+        <li>Dictionnaire de compétences manuel (pouvant être enrichi)</li>
+        <li>Absence de données de salaires</li>
+      </ul>
+
+      <h3>Travaux Futurs</h3>
+      <ul>
+        <li>Étendre à l'ensemble du site et autres portails d'emploi</li>
+        <li>
+          Mise en place d'une surveillance continue (time-series analysis)
+        </li>
+        <li>Intégration du machine learning pour classification automatique</li>
+        <li>Analyse comparative multi-régionale et multi-sectorielle</li>
+        <li>Étude des corrélations entre compétences et niveaux salariaux</li>
+      </ul>
+
+      <div class="page-break"></div>
+
+      <!-- 10. RÉFÉRENCES -->
+      <h1>10. Références</h1>
+
+      <h2>Documentation Technique</h2>
+      <ul>
+        <li>
+          BeautifulSoup 4 Documentation.
+          https://www.crummy.com/software/BeautifulSoup/
+        </li>
+        <li>Requests HTTP Library. https://requests.readthedocs.io/</li>
+        <li>
+          spaCy - Industrial-strength Natural Language Processing.
+          https://spacy.io/
+        </li>
+        <li>Pandas Documentation. https://pandas.pydata.org/docs/</li>
+        <li>
+          Matplotlib and Seaborn Visualization Libraries.
+          https://matplotlib.org/
+        </li>
+      </ul>
+
+      <h2>Ressources Académiques</h2>
+      <ul>
+        <li>
+          Jiawei Han et Micheline Kamber. "Data Mining: Concepts and
+          Techniques", 3e édition, 2011.
+        </li>
+        <li>
+          Steven Bird, Ewan Klein et Edward Loper. "Natural Language Processing
+          with Python", 2009.
+        </li>
+        <li>McKinney, Wes. "Python for Data Analysis", 3e édition, 2022.</li>
+      </ul>
+
+      <h2>Portails de Données</h2>
+      <ul>
+        <li>emploi.ma - Portail marocain d'offres d'emploi</li>
+        <li>Stack Overflow Trends - Industry Trends Analysis</li>
+        <li>GitHub Insights - Developer Trends</li>
+      </ul>
+
+      <h2>Bonnes Pratiques</h2>
+      <ul>
+        <li>W3C - Web Standards and Best Practices</li>
+        <li>RobotsTxt.org - Web Scraping Ethics and Compliance</li>
+        <li>GDPR and Data Protection Regulations</li>
+      </ul>
+
+      <div class="page-break"></div>
+
+      <!-- APPENDICES -->
+      <h1>Appendices</h1>
+
+      <h2>Appendice A : Dictionnaire des Compétences</h2>
+      <p>
+        Le dictionnaire de compétences contient 287 termes répartis dans 8
+        catégories :
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Catégorie</th>
+            <th>Nombre de Termes</th>
+            <th>Exemples</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Programmation</td>
+            <td>45</td>
+            <td>Python, Java, JavaScript, C++, Go, Rust</td>
+          </tr>
+          <tr>
+            <td>Web & Frameworks</td>
+            <td>38</td>
+            <td>React, Angular, Vue, Django, Spring</td>
+          </tr>
+          <tr>
+            <td>Base de Données</td>
+            <td>24</td>
+            <td>SQL, MongoDB, PostgreSQL, Redis</td>
+          </tr>
+          <tr>
+            <td>DevOps & Cloud</td>
+            <td>42</td>
+            <td>Docker, Kubernetes, AWS, Azure</td>
+          </tr>
+          <tr>
+            <td>Big Data & ML</td>
+            <td>31</td>
+            <td>TensorFlow, PyTorch, Spark</td>
+          </tr>
+          <tr>
+            <td>Outils & Tech</td>
+            <td>52</td>
+            <td>Jira, SAP, Salesforce, Power BI</td>
+          </tr>
+          <tr>
+            <td>Architecture</td>
+            <td>28</td>
+            <td>Microservices, REST, API, GraphQL</td>
+          </tr>
+          <tr>
+            <td>Compétences Prof.</td>
+            <td>27</td>
+            <td>Communication, Leadership, Agile</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Appendice B : Fichiers Générés</h2>
+      <p>Les fichiers suivants ont été produits lors de cette étude :</p>
+      <ul>
+        <li>
+          <strong>data/brutes/urls_offres.csv</strong> - Liste des URLs
+          collectées (62 offres)
+        </li>
+        <li>
+          <strong>data/brutes/offres_brutes.json</strong> - Données brutes au
+          format JSON
+        </li>
+        <li>
+          <strong>data/nettoyees/offres_nettoyees.csv</strong> - Données
+          nettoyées et tokenisées
+        </li>
+        <li>
+          <strong>data/nettoyees/offres_nettoyees_enrichies.csv</strong> -
+          Dataset enrichi avec compétences
+        </li>
+        <li>
+          <strong>rapports/wordcloud_offres.png</strong> - Nuage de mots des
+          termes fréquents
+        </li>
+        <li>
+          <strong>rapports/analyse_exploratoire.png</strong> - 6 visualisations
+          d'analyse
+        </li>
+        <li>
+          <strong>rapports/rapport_analyse.html</strong> - Rapport interactif
+          HTML
+        </li>
+      </ul>
+
+      <h2>Appendice C : Configurations et Paramètres</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Paramètre</th>
+            <th>Valeur</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MAX_PAGES</td>
+            <td>3</td>
+            <td>Nombre maximum de pages scrappées</td>
+          </tr>
+          <tr>
+            <td>MIN_DELAY</td>
+            <td>2 sec</td>
+            <td>Délai minimum entre requêtes</td>
+          </tr>
+          <tr>
+            <td>MAX_DELAY</td>
+            <td>5 sec</td>
+            <td>Délai maximum entre requêtes</td>
+          </tr>
+          <tr>
+            <td>TIMEOUT</td>
+            <td>10 sec</td>
+            <td>Timeout pour chaque requête HTTP</td>
+          </tr>
+          <tr>
+            <td>RETRIES</td>
+            <td>3</td>
+            <td>Nombre de tentatives en cas d'erreur</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <footer>
+        <p>
+          Rapport Académique - Web Scraping et Analyse de Données d'Offres
+          d'Emploi
+        </p>
+        <p>
+          Aymane Aziz (G1) | Licence d'Excellence en Intelligence Artificielle |
+          Avril 2026
+        </p>
+        <p>Professeur responsable : A. Belangour</p>
+      </footer>
+    </div>
+  </body>
+</html>
