@@ -1,0 +1,750 @@
+[
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/ingenieur-systeme-zos-middleware-hf-8251976",
+    "titre": "Ingénieur Système Z/OS Middleware (H/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "Nous recherchons des profils / CV deIngénieur Système Z/OS Middleware (H/F)pour les transmettre à nos clients dans le cadre de leurs futures campagnes de recrutement.Mission :Ingénieur système Z/OS expérimenté, être capable d'installer, de paramétrer, d'activer et d'exécuter tant l'investigation et la résolution des problèmes des produits habituellement utilisés dans un environnement z/OS.Equipe en charge de la gestion d'un environnement mainframe (HW / SW) incluant la sécurité associée (RACF), le stockage (DASD, Tape, B&R, DRP), la conformité, la métrologie, la performance, l'automatisation, les aspects réseaux.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "NETVIEW",
+      "JAVA",
+      "ASSEMBLEUR",
+      "TWS",
+      "LDAP",
+      "VTAM",
+      "COBOL",
+      "TCP IP"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/network-architect-mf-8251973",
+    "titre": "Network Architect (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forNetwork Architectprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Deliver Core Backbone Network Designs in alignment with industry best practices.Deliver Customer Network Designs in alignment with industry best practices.Support and Alignment with Internal Teams.Contributor to Automation Stakeholders to deliver speed and accuracy for the enablement of new services.Perform Core Network Changes.Manage technical Network solutions and framework of [24]7 Network infrastructure.Perform Network troubleshooting to isolate and diagnose common Network problems.Upgrade Network hardware and software components as required.Perform Network planning, modeling, and analysis.Design, implement and manage security countermeasures when Network vulnerabilities arise.Develop and deliver professional proposals and design documentation for new/old program ramp-up or ramp-down.Testing the performance of upgraded or newly installed systems for performance, scalability, and security.Research, plan, evaluate and recommend Network architecture technology solutions across Data Center, Wide Area and Corporate Network.Perform hands on development work with Terraform, Terragrunt, env0, Python, Ansible, and other development frameworks as applied to Network Automation.Assess technology trends and articulate technology recommendations for Data Center and Wide Area Networking technologies, Network design, and implementation.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "DNS",
+      "SNMP",
+      "MPLS",
+      "PYTHON",
+      "JUNIPER",
+      "BGP",
+      "CVS",
+      "WAN",
+      "DHCP",
+      "ETHERNET",
+      "CISCO",
+      "TCP IP"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/genesys-architect-mf-8251972",
+    "titre": "GENESYS Architect (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forGENESYS Architectprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Deep and relevant expertise on Genesis Cloud services, along with contact center industry experience.Be the direct point of technical contact to provide high-quality consultancy for Genesys solutions to customers.Develop and maintain integration and Cloud solutions.Knowledge and experience on Cloud computing models (IaaS, PaaS, and SaaS).Experience with software development and one or more development or scripting languages (e.g. Java. Golang, Python, JavaScript, TypeScript, Bash, PowerShell).Self-starter with deep hands-on work experience with production implementations on public Cloudproviders within large enterprises.Design, create and/or troubleshoot and support Genesys products.Develop, maintain, implement and support complex Contact Centre solutions involving web services.Contribute to the solution architectural design, amongst other disaster recovery and high availability.Automation of deployment and migration tasks.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "JAVA",
+      "JAVASCRIPT",
+      "CVS",
+      "PAAS",
+      "VMWARE",
+      "GENESYS",
+      "POWERSHELL",
+      "PYTHON",
+      "BASH"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/azure-solutions-architect-mf-8251962",
+    "titre": "AZURE Solutions Architect (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forAZURE Solutions Architectprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Serve as in-house technical expert providing technical guidance on new features & functionalities, drive the deployment of the customers workloads into Azure and provide deployment guidance.Deliver Cloud platform architecture documents detailing the vision for how Azure infrastructure and platform services support the overall application architecture.Proven background in the design and implementation of large scale, global, complex custom application development systems (e.g., high transaction volumes).Experience problem solving issues on globally distributed systems and critical product service environments.Create solutions that support a DevOps approach for delivery and operations of services.Drive the deployment of customers workloads into Azure and provide deployment guidance.Creation of standard templates for faster implementation & migration.Capable of technical deep dives into infrastructure, databases, and applications as needed, yet cognitively agile enough to have strategy discussions with leadership.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "PAAS",
+      "AGILE",
+      "ACCESS",
+      "CVS",
+      "SQL",
+      "ARM",
+      "AZURE",
+      "COSMOS",
+      "REDIS",
+      "SHELL"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/cloud-microservices-architect-mf-8251966",
+    "titre": "Cloud Microservices Architect (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forCloud Microservices Architectprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Design, build, and maintain Cloud environments focusing on uptime, access, control, and Network security using automation and configuration management tools.Guide the definition of best practices in collaboration with other areas of engineering group.Research and provide guidance on adoption of new technologies.Provide guidance to Product Managers on feasibility pf product requests.You will be creating, recreating, rewriting and refactor applications.You will be working on Cloud-based application development.Ensure all architecture work aligns with the strategic direction of the business.Provide architecture support throughout the lifecycle of projects.Contribute to core software releases by following agile development process.Promote the adoption of engineering best practices, such as SOLID principles/Test Driven Development.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "CVS",
+      "AGILE",
+      "AZURE",
+      "DOCKER",
+      "ACCESS"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/cyber-security-engineer-mf-8251969",
+    "titre": "Cyber Security Engineer (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forCyber Security Engineerprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Act as an internal subject matter expert with respect to CVA scanning and reporting. Assist in maintenance of the enterprise to VMLC (Vulnerability Management Life Cycle) policy and associated VM standard.Conduct required tasks for the vulnerability scanning program and publish reported vulnerabilities to impacted teams for remediation.Triage and risk rank vulnerabilities according to severity and exposure. Work with Product and IT teams to risk rank and patch vulnerabilities related to the technology stack. Develop remediation plans for vulnerabilities.Maintenance of an executive level dashboard and actionable metrics that reflect the current enterprise security posture.Scan and report on the appropriate configuration standards, to ensure baselines are being met and compliance drift is managed.Initiate improvement activity to reduce risk, ensure compliance, lower cost, and improve quality within IT processes.Conduct/support periodic risk assessments and develop appropriate mitigation plans in support of deliverables.Continuous review of configuration management and vulnerability management posture inside the company and knowledge of all external developments that could impact the CVA posture, including vendor patches, zero-day exploits, end-of-life systems or deprecated services.The ideal Endpoint Security Ops Engineer will be adept in learning new security capabilities, adaptable, take initiative, and be a team player.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "IDEAL",
+      "JAVASCRIPT",
+      "CVS",
+      "ENDPOINT",
+      "VM",
+      "PYTHON"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/consultant-sap-abap-hf-8338269",
+    "titre": "Consultant SAP ABAP (H/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "Nous recherchons unConsultant SAP ABAP (H/F)pour notre client, une société multinationale dans le domaine des services informatiques.Mission :Assurer la liaison avec les équipes de livraison pour aider à développer l'activité autour des caractéristiques techniques à venir, conformément à la stratégie et aux objectifs de l'organisation.Participation aux phases de conception et réalisation des développements.Mentorat des membres juniors de l'équipe ABAP ou de l'équipe technique au sein de l'organisation. Vous êtes en charge de la construction d'actifs et d'accélérateurs dans SAP ABAP et d'autres domaines techniques de niche.Développement en langage ABAP et ABAP Objet, UI5, FIORI …Construire des actifs et des accélérateurs pour réduire le coût global du service.Réalisation des analyses techniques des demandes clients.Rédaction de la documentation technique et des notices d’utilisation.Tests unitaires.Animation des formations utilisateurs.Préparation au démarrage et support post démarrage.Maintenance corrective et évolutive.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "SAP",
+      "ABAP"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/consultant-sap-ehs-hf-8338271",
+    "titre": "Consultant SAP EHS (H/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "Nous recherchons unConsultant SAP EHS (H/F)pour notre client, une société multinationale dans le domaine des services informatiques.Mission :Définir le champ d'application et les priorités opérationnelles pour les changements à petite échelle et peut participer à des exercices de définition du champ d'application à plus grande échelle.Spécifier et documenter les exigences opérationnelles selon les instructions, en assurant la traçabilité jusqu'à la source. Les analysées pour s'assurer qu'elles correspondent aux objectifs de l'entreprise et qu'elles sont cohérentes, en les remettant en question de manière positive le cas échéant.Collaborer avec les parties prenantes pour hiérarchiser les exigences.Participer à l'analyse des objectifs des parties prenantes et des questions sous-jacentes découlant des enquêtes sur les exigences commerciales et les problèmes, et identifie les options à prendre en considération.Travailler de manière itérative avec les parties prenantes afin d'identifier les avantages potentiels et les options disponibles à prendre en considération, ainsi que pour définir les tests d'acceptation.Bonne compréhension du cycle de vie du projet et de toutes ses phases.Examiner les plans de projet et à y contribuer en termes de compréhension des dépendances et d'évaluation précise de l'effort pour ses propres contributions ou pour le suivi dont il fait partie.Suivre et à signaler l'état d'avancement du projet ou de la tâche, les risques et les problèmes.Participer activement à la préparation, à la conception, à la réalisation et à la mise en service des projets de mise en œuvre des clients.Démontrer la capacité de planifier, d'animer et de gérer des ateliers de travail ou des réunions avec des clients internes et externes.Faciliter les réunions de projet, les ateliers, le transfert de savoir-faire et la documentation.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "REACH",
+      "SAP"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/cloud-architect-mf-8251963",
+    "titre": "Cloud Architect (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forCloud Architectprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Lead analysis, recommendations, and presentation of approaches on Cloud migration roadmaps, architecture / designs etc.Involve in conducting Azure readiness assessments and evaluations and delivery of assessment reports, architecture/design/ deployment documents & presentations.Architecting Cloud solutions for new applications.Design Cloud architectures, environments, and solutions that meet the business requirements with an emphasis on meeting the overall business goals.Design highly available, scalable and secure solutions using industry best practices.Design and develop automation to support continuous delivery and continuous integration process.Strong understanding of Azure Database technologies (both IaaS and PaaS) and options to support the migration process.Drive the adoption of best practices around coding, design, quality and performance.Support the development team in building solutions and quick fixes.Analyse and resolve configuration issues in development, test, and production environments.Build effective monitoring, logging and auditing of applications hosted in Azure to ensure compliancy with mandated policies.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "PAAS",
+      "VM",
+      "AGILE",
+      "CVS",
+      "SQL",
+      "C#",
+      "ARM",
+      "AZURE",
+      "COSMOS",
+      "API",
+      "NOSQL",
+      "LESS"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/cloud-computing-virtualization-engineer-mf-8251964",
+    "titre": "Cloud Computing and Virtualization Engineer (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forCloud Computing and Virtualization Engineerprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Must be able to work independently and take ownership.Work proactively and should be result oriented.Discuss with customer to understand the project requirement and suggest industry level Cloud solutions.Design and develop best fit Cloud solutions architecture, Network architecture and evaluate architectural alternatives.Provide technical support for Cloud architecture design, deployment and maintenance.Design secure, scalable and HA / DR strategies on Cloud technologies.Analyse and resolve infrastructure vulnerabilities and application deployment issues.Perform infrastructure cost analysis and optimization.Troubleshoot problems across a wide array of AWS/AZURE services.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "CVS",
+      "AZURE",
+      "DOCKER",
+      "LINUX"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/ruby-on-rails-developer-mf-8251955",
+    "titre": "RUBY ON RAILS Developer (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forRUBY ON RAILS Developerprofiles / CVs to pass on to our clients for their future recruitment campaigns.Mission:Providing enhancements to the application platform with specific emphasis on sound fundamental development methodology in Ruby on Rails.Design and develop responsive, high performing web applications using modern techniques and frameworks as well as write tests and perform code reviews in a dynamic, fast paced agile environment.Maintain responsibility for analysis of Incident Tickets & Resolution, supply to Continual Service Improvement Programs.Writte and maintain reliable Ruby code.Integrating user-facing elements designed by the front-end team.Connecting applications with additional web servers.Maintaining APIs.Estimate development tasks and meet deadline.Collaborate with engineering, QA, and product design team members.Scale our applications as our user base grows.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "HTML",
+      "JAVASCRIPT",
+      "CVS",
+      "JIRA",
+      "MONGODB",
+      "JQUERY",
+      "RUBY ON RAILS",
+      "AGILE",
+      "POSTGRESQL",
+      "CSS",
+      "MYSQL",
+      "GIT",
+      "DOCKER"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/cloud-system-administrator-mf-8251967",
+    "titre": "Cloud System Administrator (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forCloud System Administratorprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Installing, configuring and maintain softwares, servers (on premise / Cloud), Networks and firewalls .Overseeing/troubleshoot system performance, troubleshooting issues and outages Creating a backup and safeguarding the data(on premise / Cloud) if there are any hindrances Performing system upgrades following new releases.Ensuring/Sustaining Network integrity, server deployment, security and efficiency of IT infrastructure .Monitoring and maintaining Network servers such as file servers, VPN gateways and intrusion detection systems.Ensuring high-level security and efficiency resulting in 100% output .Perform server administration tasks, including user/group administration, security permissions, group policies, print services, research event log warnings and errors, and resource monitoring, ensuring system architecture components work together seamlessly.Monitor datacentre health using pre-existing management tools and respond to hardware issues as they arise; help build, test, and maintain new servers as needed.Deploying and configuring virtual Networks Orchestrating routing paths, especially in a hybrid Cloud .Managing public and private IP addresses .Significant experience building, configuring, and maintaining physical and virtual servers.Maintain internal infrastructure requirements including, laptop and desktop computers, servers, routers, switches, firewalls, printers, phones, security updates; support interNet, intraNet, LANs, WANs, and Network segments.Interact with the help desk and other teams to assist in troubleshooting, identify root cause, and provide technical support when needed.Perform routine/scheduled audits of the systems, including all backups IT Inventory management reporting Application Code deployments to various Cloud/ on premise servers.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "CVS",
+      "WAN",
+      "PREMISE",
+      "CENTOS",
+      "AZURE",
+      "REDHAT",
+      "DOCKER",
+      "VPN",
+      "PERL",
+      "LINUX",
+      "PYTHON"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/swift-developer-mf-8251956",
+    "titre": "SWIFT Developer (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forSWIFT Developerprofiles / CVs to pass on to our clients for their future recruitment campaigns.Mission:We are looking for an iOS/Swift developer responsible for the development and maintenance of applications aimed towards iOS and OS X, including mobile phones, tablets, and full.Plan, design and build advanced and build secure applications for iOS and OS X platform.Monitor the performance, quality, and responsiveness of company s applications.Work with the rest of the team to define, design, and develop new features.Find and fix bugs in a timely manner.Worked in Agile / SCRUM Methodology.Help maintain high-level code quality, organization and automatization.Provide estimates for delivery schedule.Strong Analytical skills.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "MERCURIAL",
+      "CVS",
+      "REST",
+      "GIT",
+      "SCRUM",
+      "AGILE",
+      "SWIFT"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/test-validation-engineer-mf-8251957",
+    "titre": "Test and Validation Engineer (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forTest and Validation Engineerprofiles / CVs to pass on to our clients for their future recruitment campaigns.Mission:Develop and apply design verification and validation protocols based on system requirements and approved procedures and standards (ISO, IEC and FDA).Identify tasks required to complete projects in accordance with Design Control procedures.Propose technical solutions and associated schedules to complete projects on time.Design and build test benches; follow up maintenance and calibration.Create, analyse and summarise documentation of verification and validation results for internal reviews and regulatory submissions.Supervise and perform inspection, assembly and verification/validation testing in accordance with product requirements.Assist in the development of design input requirements.Participate in the writing and review of standard operating procedures and work instructions.Interact and manage external suppliers, including validation and verification testing.Help define, develop and implement processes and technical solutions to support current product designs, optimise manufacturing, reliability and improve quality.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "CVS",
+      "RHEL",
+      "SUSE"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/cloud-engineer-mf-8251965",
+    "titre": "Cloud Engineer (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forCloud Engineerprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Implement IAM policies and configure VPCs to create a scalable and secure Network for the application workloads.Develop and manage AWS development and migration programs.Build Data Integration scripts using Python to integrate with upstream/downstream systems (within AWS Cloud Services ecosystem).Develop application code for programs while following coding standards.Resolve queries/issues and provide Application/functional support.Recommend changes to improve established Data Integration processes.Provides solutions or alternatives to avoid potential problems.Analyze workload requirements and work with IT stakeholders to define proper sizing for Cloud workloads on AWS.Build, Deploy and Manage production workloads including applications on EC2 instance, APIs on Lambda Functions and more.Good communication skills, ability to persuade and clearly identify audiences.Utilizes good judgment when and how to communicate.Understands and adheres to development methodology, standards and Principles.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "ARM",
+      "RDS",
+      "CVS",
+      "REST",
+      "API",
+      "IAM",
+      "PUPPET",
+      "PYTHON",
+      "BGP"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/aws-cloud-architect-mf-8251960",
+    "titre": "AWS Cloud Architect (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forAWS Cloud Architectprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Support and advise clients in the adoption and deployment of AWS services (IT Strategy, Opportunity Study, Audit, Framework and Roadmap).Design solution platforms integrating AWS reference services (Serverless Architecture, Analytics, IoT, EKS, ...) in Native Cloud and Hybrid Cloud contexts.Conduct research, tests, and execute new techniques which could be reused and applied to the project.Accountable for designing, building, and optimizing automation systems that help to execute business web and data infrastructure platforms.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "IOT",
+      "DNS",
+      "AGILE",
+      "HTTP",
+      "SSL",
+      "CVS",
+      "ALM",
+      "PUPPET",
+      "SCRUM",
+      "JENKINS",
+      "BASH",
+      "LOAD BALANCING",
+      "DOCKER",
+      "PYTHON",
+      "REACT"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/cloud-system-integrator-mf-8251968",
+    "titre": "Cloud System Integrator (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forCloud System Integratorprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Create future-proof system architectures for our highly interconnected 4G/5G communication solutions.Define competitive end-to-end solutions together with top experts from different teams in an international environment.Demonstrate strong understanding of Networking and security architectures and engage in technical discussions with Network and security architects of large enterprises.Present both industry and Zscaler technical architecture as it relates to customers and prospects environment and technical requirements.Ensure that our solutions fit smoothly into our customers, IT environments.As part of the dynamic and agile team, ensure robustness, performance and security aspects within the architecture design.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "CVS",
+      "AGILE"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/consultant-sap-senior-hf-8338272",
+    "titre": "Consultant SAP Senior (H/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "Nous recherchons unConsultant SAP Sénior (H/F)pour notre client, une société multinationale dans le domaine des services informatiques.Mission :Participer aux études préalables et à l'élaboration des cahiers des charges.Mener de bout en bout les enrichissements/projets validés au carnet de travail Logistique SAP Achats, Stocks voire Production Planning (conception, paramétrage, réalisation, tests, conduite du changement, formation, support post go-live…) avec un fort engagement de résultat et une forte interaction avec les correspondants métiers.Participer au développement et au renforcement de l’équipe en menant des actions d’améliorations continues et en étant actif dans le partage de la connaissance et l’entraide.Adapter le développement des logiciels aux besoins du service (analyse fonctionnelle), assurer la conception technique, le codage, la mise au point et la documentation des programmes.Établir des normes de développement internes : analyser les besoins fonctionnels et les faire valider par son supérieur hiérarchique.Optimiser les développements en les rendant plus efficaces, plus rapides et plus agréables à utiliser.Valider les paramétrages.Rédiger des procédures.Mettre le système en production.Travailler en forte intégration avec les domaines FI, CO, PS, HR, SD, CS…",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "ABAP",
+      "SAP"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/test-automation-engineer-mf-8251958",
+    "titre": "Test Automation Engineer (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forTest Automation Engineerprofiles / CVs to pass on to our clients for their future recruitment campaigns.Mission:Develop, maintain, and execute automation tests.Develop and maintain test automation architecture and frameworks.Write complex scripts in one or more programming languages.Ensure scalability of automation and Continuous Integration across the solution.Assist in analysis and piloting of best-in-class automation testing tools and propose commission and use to relevant stakeholders.Design and develop strategic automated tests while maintaining and enhancing frameworks and test tools.Reviews specifications to determine software engineering requirements and design solutions meets design input.Estimates for software modules under development.Integrating automated tests with CI/CD builds.Follow the internal software quality process during design and implementation phase.Provides support with the development software verification activities through the design and implementation of software module, class and method level tests.Create a respectful work environment where you advocate for your team, create accountability and recognize accomplishments.Provide timely feedback to encourage success, ensure accountability and connect opportunities for your associates development.Promote and build a diverse and cohesive team to accomplish objectives and align associates skills to fill gaps.Opportunities to work in projects involving latest technologies & trends.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "MYSQL",
+      "GITLAB",
+      "API",
+      "PYTHON",
+      "LINUX",
+      "CVS",
+      "GIT",
+      "SHELL",
+      "JENKINS",
+      "JAVASCRIPT",
+      "MATRIX",
+      "ORACLE",
+      "SQL"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/aws-solutions-architect-mf-8251961",
+    "titre": "AWS Solutions Architect (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forAWS Solutions Architectprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Design a robust, secure and optimized AWS architecture to implement large scale enterprise data solutions and applications.Develop and deliver AWS Cloud solutions in areas such as AIML, advanced analytics, microservices, serverless, etc.Build highly scalable, Cloud-native applications on AWS platform using services like API Gateway, Lambda, SQS, DynamoDB and ECS.Implement and manage KuberNetes environments.Ensure configuration and compliance with configuration management tools.Administer and troubleshoot Linux based systems.Troubleshoot problems across a wide array of services and functional areas.Perform infrastructure cost analysis and optimization.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "SPARK",
+      "DNS",
+      "HTTP",
+      "HADOOP",
+      "CVS",
+      "RDS",
+      "CENTOS",
+      "BIG DATA",
+      "DOCKER",
+      "API",
+      "TALEND",
+      "DMS",
+      "LINUX"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/datastage-architect-mf-8251971",
+    "titre": "DATASTAGE Architect (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forDATASTAGE Architectprofiles / CVs to share with our clients for their future recruitment campaigns.Mission:Define and supervise all activities within your scope by using and optimising the resources allocated.Control the implementation of the activities under your responsibility and report on the results.Responsible for the level of service quality, compliance with standards and the level of safety within the assigned perimeter.Supervise and monitor of assigned projects (monitoring of workloads, definition of deadlines and delivery milestones, identification of deliverables and work to be carried out, task planning, monitoring of work, management of corrective measures, monitoring of teams, etc.).Coordination with cross-functional teams (architects, project managers, DOT team, business units).Day-to-day management of internal or external resources.Reporting on the activity (quantitatively and qualitatively) to the Project Manager and proposing corrective actions.Documentary work inherent to the projects monitored (specifications, selection files, architecture files, etc.).Will be involved in product installation/ configurations, trouble shooting (performance, 3rd party integrations, security), deliver class room training etc.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "J2EE",
+      "MONGODB",
+      "JAVA",
+      "CVS",
+      "SQL",
+      "INFORMATICA",
+      "DATASTAGE",
+      "AZURE",
+      "TALEND",
+      "ORACLE"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/dba-imsdb2-zoshf-8251974",
+    "titre": "DBA IMS/DB2 Z/OS(H/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "Nous recherchons des profils / CV deDBA IMS/DB2 Z/OS (H/F)pour les transmettre à nos clients dans le cadre de leurs futures campagnes de recrutement.Mission :Assistance au développement technique Z/OS.Maintenance des projets, support aux analystes Z.Mise en œuvre opérationnelle des projets de développement.Assurer le maintien en conditions opérationnelles.Réaliser la maintenance (mise à jour de versions, patchs management).Construction de nouveaux socles techniques.Traitement et incidents de niveau 3.Suivi et analyse des performances.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "COBOL",
+      "ISPF",
+      "TWS",
+      "SDSF",
+      "DB2",
+      "JCL",
+      "FORTRAN",
+      "TSO",
+      "ASSEMBLEUR",
+      "SAS",
+      "VSAM",
+      "TCP IP"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/consultant-sap-fi-cops-hf-8338270",
+    "titre": "Consultant SAP FI-CO/PS (H/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "Nous recherchons unConsultant SAP FI-CO/PS (H/F)pour notre client, une société multinationale dans le domaine des services informatiques.Mission :Concevoir, mettre en œuvre, déployer et soutenir les solutions financières SAP pour la finance, la comptabilité, le contrôle des coûts et le contrôle de gestion.Maintenir les compétences dans la conception et la configuration des processus des applications SAP ; la conception, le développement, l'intégration, les tests et le déploiement des applications SAP ; et l'architecture technique des applications SAP.Comprendre les exigences de l'entreprise afin de conclure l'impression, les essais et le soutien pour le grand livre général, les comptes clients, les comptes fournisseurs, le contrôle de gestion et la gestion des fonds partiels.Identifier, évaluer et résoudre des problèmes commerciaux complexes dans son domaine de responsabilité, lorsque l'analyse de situations ou de données nécessite une évaluation approfondie de facteurs variables.Participer à l’évolution des systèmes d’information du client et intervenir sur les différentes étapes de la mise en œuvre d’applications informatiques.Analyser des besoins utilisateurs, architecture technique, réalisation et la mise en production.Configuration, paramétrage fonctionnel.Participation au déploiement des solutions jusqu’au suivi des évolutions fonctionnelles du client en part time.Pilotage de projet et à la gestion d’équipes.Connaissance du fonctionnement du support.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "SAP"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/ux-ui-designer-mf-8251959",
+    "titre": "UX / UI Designer (M/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "We are looking forUX / UI Designerprofiles / CVs to pass on to our clients for their future recruitment campaigns.Mission:Design graphic user interface elements, like menus, tabs, and widgets.Be in proactive mode to instill new approaches in design.Produce and enhance wireframes, interactive prototypes, user flow diagrams, and other UI-UX design solutions for Desktop & Mobile products.Create visuals for the web (editing, photo, video, etc.).Develop UI mockups and prototypes that clearly illustrate how sites function and look like.Create mock-ups in accordance with the graphic charter of the brand or product.Design interfaces for web and mobile.Build page navigation buttons and search fields.Deliver high quality technical designs with high performance, scalability, flexibility and maintainability across all businesses.Plan user testing to validate designs using a variety of methodologies.Identify and troubleshoot UX problems (e.g. responsiveness).Conduct layout adjustments based on user feedback.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "BOOTSTRAP",
+      "CVS",
+      "GIT",
+      "JAVASCRIPT",
+      "CSS",
+      "PHOTOSHOP",
+      "AJAX",
+      "HTML",
+      "ILLUSTRATOR"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/zos-system-engineer-senior-storagehf-8251975",
+    "titre": "Z/OS System Engineer Senior Storage(H/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "Nous recherchons des profils / CV deZ/OS System Engineer Senior Storage (H/F)pour les transmettre à nos clients dans le cadre de leurs futures campagnes de recrutement.Mission :Mise en œuvre, suivi et gestion technique opérationnelle des opérations,Enrichissement et rechargement des environnements Mainframe z/OS d’homologation et de répétition de bascules.Définition des partitions (création du socle, SGBD, middlewares transactionnels et flux, service techniques, sécurité), clonage et alimentation de données, interopération avec les environnements mainframe et distribués (non mainframe).Suivi et gestion technique d’opérations des divers expertises (ingénieries systèmes et analyses d’exploitations) des différents services du centre d’expertises Mainframe.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "TSO",
+      "IBM",
+      "DB2",
+      "VSAM",
+      "ZOS",
+      "JCL",
+      "CICS",
+      "MVS"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/consultant-sap-mmsdewmppqmcar-hf-8338273",
+    "titre": "Consultant SAP MM/SD/EWM/PP/QM/CAR (H/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "Nous recherchons unConsultant SAP MM/SD/EWM/PP/QM/CAR (H/F)pour notre client, une société multinationale dans le domaine des services informatiques.Mission :Accompagner et soutenir nos utilisateurs sur leurs activités et problématiques quotidiennes en étant force de proposition pour l’amélioration continue de la solution.Mener de bout en bout les enrichissements/projets validés au carnet de travail Logistique SAP Achats, Stocks voire Production Planning (conception, paramétrage, réalisation, tests, conduite du changement, formation, support post go-live…) avec un fort engagement de résultat et une forte interaction avec les correspondants métiers.Maintenir en état opérationnel le Système d’information du Client.Superviser et exécuter la résolution des tickets, la livraison des changements et la livraison des versions au sein de l'équipe d'assistance.Fournir une expertise technique fonctionnelle dans l'un ou plusieurs modules SAP : WM, MM, SD, EWM, PP, QM, CAR...Maintenir la connectivité et l'évolutivité.Assurer la continuité des activités métier en production.Assistance à la mise en production.Formation et support des utilisateurs.Assurer un reporting et un pilotage de vos activités avec la documentation nécessaire associée.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "SAP"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/senior-software-engineer-java-springboot-oujda-9053192",
+    "titre": "Senior Software Engineer (JAVA-SPRINGBOOT) - Oujda",
+    "entreprise": "AFRICAWORK",
+    "description": "We are recruiting on behalf of our Client for an experiencedSenior Software Engineer (JAVA-SPRINGBOOT)to join a company based inOujda, specialized in providing products and services for businesses and individuals.Responsibilities:Development: Write clean, efficient, and maintainable code; implement complex features.Code Review: Review code from peers and provide constructive feedback.Testing & Quality Assurance: Ensure proper unit testing",
+    "date": "26.03.2026",
+    "lieu": "Casablanca-Mohammedia - Oujda",
+    "competences": [
+      "JAVA"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/developpeur-c-senior-multiplateforme-rabat-9285636",
+    "titre": "Développeur C++ Senior (Multiplateforme) - RABAT",
+    "entreprise": "JOB CONNECT",
+    "description": "Nous recrutons pour le compte de notre client basé à Rabat, UnDéveloppeur C++ Senior (Multiplateforme), expérimenté, doté d’une expertise technique avancée et d’une forte capacité à travailler sur des environnements complexes et innovants.Missions principales :Développer et maintenir des applications C++ multiplateformes (Windows, macOS, Linux), en garantissant performance, fiabilité et compatibilitéSolides connaissances en (Bibliothèque standard C++, Gestion mémoire, Architecture logicielle, Maintenance de code existantConcevoir, implémenter et maintenir des API simples, robustes et performantesParticiper activement aux phases de conception (design reviews) et aux revues de codeAssurer la maintenance corrective et évolutive du code existantMettre en place et maintenir des tests unitaires ainsi que des processus d’intégration continueTravailler en méthodologie Agile avec des livraisons régulièresContribuer au développement de composants modernes, notamment :IntelliSense (serveur LSP, compilateur)Évolution d’un serveur web embarquéExtensions Visual Studio Code (édition, débogage, autocomplétion avancée)Intégration d’outils d’intelligence artificielle (recherche sémantique, assistants de code)Excellente maîtrise du C++ (niveau avancé)Solides connaissances en (Bibliothèque standard C++, Gestion mémoire, Architecture logicielle, Maintenance de code existantBonne maitrise en développement multiplateforme (Windows, macOS, Linux)Bonne compréhension des outils de développement modernes et environnements IDEMaîtrise obligatoire du français (réunions, revues de code, spécifications)Établir les sujets techniques variés et innovants (C++ core, IA, outils de développement, serveurs embarqués)",
+    "date": "31.03.2026",
+    "lieu": "Rabat-Salé-Kénitra",
+    "competences": [
+      "LINUX",
+      "API",
+      "AGILE",
+      "C++"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/developpeur-fullstack-webmobile-marrakech-9300002",
+    "titre": "Développeur Fullstack Web/Mobile - Marrakech",
+    "entreprise": "MTS SYSTEM",
+    "description": "Société à rayonnement international, implantée à Marrakech depuis 2006, spécialisée dans la distribution et le développement d’applications commerciales et monétiques, est à la recherche deDéveloppeurs Full Stack.Missions:Sous la direction d’un chef de projet, au sein d’une équipe de développeurs, vous participerez à la conception et au développement technique de nouvelles applications web et/ou mobile.Activités principales :Développement des applications :Rédiger les lignes de codes nécessaires à la création d’une applicationAppliquer les règles de navigation, créer des liens entre les pagesDévelopper les interfacesCorriger et optimiser les fonctionnalités (qualité, charte graphique, ergonomie...)Documenter les applications pour les développements ultérieurs et la mise en production.Tests et écriture des corrections nécessaires :Préparer et réaliser les tests unitaires et les tests fonctionnelsApporter les correctifs nécessaires suite à ces tests ou aux tests fonctionnels réalisés par les utilisateurs ou la maîtrise d’ouvrage.Maintenance corrective et évolutive des applications :Assurer les corrections suite aux problèmes soulevés (bugs)Prendre en compte les évolutions des solutions techniques existantesAssurer la programmation des évolutions demandées.Réalisation de l’analyse technique (Sous la responsabilité du chef de projet) :Analyser les besoins métiers spécifiés et les traduire en cahier des charges techniquesÉcrire les spécifications techniques générales et détaillées en envisageant les problèmes éventuels et les évolutions.Activités éventuelles :Pour de petits projets, le développeur pourra parfois être amené à gérer la partie technique de A à Z sans qu’il y ait de chef de projet, et parfois rédiger les spécifications fonctionnelles détaillées.",
+    "date": "27.04.2026",
+    "lieu": "Casablanca-Mohammedia - Marrakech-Safi - Rabat-Salé-Kénitra",
+    "competences": [
+      "ANDROID",
+      "C",
+      "JAVA",
+      "JAVASCRIPT",
+      "NET",
+      "C#",
+      "FULL STACK"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/responsable-carte-monetique-casablanca-9298400",
+    "titre": "Responsable Carte Monétique - Casablanca",
+    "entreprise": null,
+    "description": "Dans le cadre de sa croissance, une grande structure basée àCasablancarecrute unResponsable carte monétique.Vos principales missions sont les suivantes :Développer, animer et suivre le portefeuille clients.Analyser et suivre l’évolution des volumes de carburants vendus via les cartes carburants.Répondre aux réclamations clients et demandes de nos clients.Assurer en veille concurrentielle.Établir les reportings mensuels .Mettre en œuvre un plan d’actions nécessaire à la réalisation des objectifs .",
+    "date": "08.04.2026",
+    "lieu": "Casablanca-Mohammedia",
+    "competences": [
+      "bases de données",
+      "systèmes d'information",
+      "APPLICATIONS WEB",
+      "Outils informatiques",
+      "analyse de données",
+      "Relation Clients",
+      "FIDÉLISATION CLIENT",
+      "Gestion des Réclamations",
+      "Suivi des performances",
+      "Plan d’action commercial",
+      "veille concurrentielle",
+      "Responsable monétique",
+      "Chargé de monétique",
+      "Business analyst",
+      "Responsable portefeuille clients",
+      "Monétique",
+      "Finance",
+      "Comptabilité",
+      "Gestion"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/technicienne-full-stack-mohammedia-9261447",
+    "titre": "Technicien(ne) Full Stack - Mohammedia",
+    "entreprise": "BATIFER",
+    "description": "Nous sommes à la recherche d'un(e)Technicien(ne) Full Stack.Missions :Capable d’intervenir à la fois sur le développement d’applications internes  et sur la maintenance du parc informatique.Développement Front-end (HTML, CSS, JavaScript, framework moderne)Développement Back-end (PHP, Node.js)Maintenance logicielle du parc informatique",
+    "date": "11.03.2026",
+    "lieu": "Casablanca-Mohammedia",
+    "competences": [
+      "JAVASCRIPT",
+      "NODE JS",
+      "HTML",
+      "FULL STACK",
+      "CSS"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/technicien-maintenance-machines-xerox-canon-casablanca-9254659",
+    "titre": "Technicien Maintenance - Machines (XEROX, CANON) - Casablanca",
+    "entreprise": "TECTRA CASA TERTIAIRE – RECRUTEMENT",
+    "description": "L’Humain est au cœur de notre métier !TECTRA est aujourd’hui leader du conseil en Ressources Humaines au Maroc. Avec plus de 1000 clients actifs multisectoriels et une force de réseaux de 27 agences partout dans le Royaume, Tectra vous accompagne dans votre recherche d’emploi.Pour l’un de ses clients, dans le secteur commercial, TECTRA recherche un(e)Technicien Maintenance - Machines (XEROX, CANON), à Casablanca.Missions Principales :Assurer l’installation, la maintenance préventive et curative des machines d’impression (XEROX, CANON)Diagnostiquer les pannes mécaniques, électriques et électroniquesIntervenir rapidement en cas de dysfonctionnement chez les clientsEffectuer les réglages, tests et mises à jour nécessairesAssurer la disponibilité et le bon fonctionnement des équipement",
+    "lieu": "Casablanca-Mohammedia",
+    "competences": [
+      "Équipement",
+      "Qualité",
+      "Maintenance Préventive",
+      "Machines",
+      "Maintenance",
+      "Production"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/professeur-permanent-informatique-fes-9261120",
+    "titre": "Professeur Permanent en Informatique - Fès",
+    "entreprise": "EDVANTIS HIGHER EDUCATION GROUP",
+    "description": "Dans le cadre de son développement, le groupeEdvantisrecrute pour son campus ISGA à Fès desEnseignants Chercheurs Permanents en Informatique.Missions:Enseignement (cours et des Travaux Dirigés) et autres activités pédagogiquesEncadrement pédagogique et suivi de projets étudiantsRecherche scientifique dans le domaine de spécialisation.",
+    "date": "27.04.2026",
+    "lieu": "Fès",
+    "competences": []
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/technicien-reseau-informatique-niveau-1-casablanca-9065662",
+    "titre": "Technicien Réseau Informatique Niveau 1 - Casablanca",
+    "entreprise": "CALLIOPE",
+    "description": "Nous sommes à la recherche d'unTechnicien Réseau Informatique Niveau 1.Rattaché à un responsable Informatique vos missions:Assurer lesupport technique de niveau 1auprès des utilisateurs (téléphone, ticketing, email).Diagnostiquer et résoudre les incidents courants liés au réseau (connexion Internet, Wi-Fi, VPN, imprimantes, partages réseau).Réaliser lesconfigurations de base: IP, DNS, DHCP, intégration au domaine Active Directory.Vérifier et maintenir les équipements réseau : switchs, routeurs, bornes Wi-Fi (contrôles visuels, redémarrage, câblage).Traiter les incidents liés auxlogiciels métierset auxsystèmes d’exploitation.Participer à ladocumentation des procédureset ausuivi des tickets.",
+    "date": "13.03.2026",
+    "lieu": "Casablanca-Mohammedia",
+    "competences": [
+      "DNS",
+      "VPN",
+      "DHCP"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/imprimeur-casablanca-9260124",
+    "titre": "Imprimeur - Casablanca",
+    "entreprise": "TECTRA AGENCE AIN SBAA",
+    "description": "Pour l’un de ses clients, dans le secteur des éditions et des imprimeries, TECTRA recherche unImprimeur, à CasablancaMissions Principales :Transformer les fichiers numériques en supports physiques ( livres, affiches, packagings ) en assurant une qualité optimaleRéceptionner les dossiers de fabrication, préparer les supports ( papier, carton, plastique ) et les consommablesCaler les plaques, paramétrer les logiciels de RIP (en numérique ) et ajuster la colorimétrieSurveiller le bon déroulement de l'impression, vérifier la conformité ( repérage des couleurs, absence de défauts ) et maintenir les cadences.Réaliser l'entretien de premier niveau et le nettoyage régulier des presses.",
+    "date": "10.03.2026",
+    "lieu": "Casablanca-Mohammedia",
+    "competences": []
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/developpeur-full-stack-hf-rabat-9264361",
+    "titre": "Développeur Full Stack (H/F)  - Rabat",
+    "entreprise": "YCN DEV MAROC",
+    "description": "Notre société, filiale d'une entreprise française spécialisée danslaDigital et la Data B2Bdepuis 25 ans, recruteunDéveloppeur Full Stackafin de renforcer son équipe IT. Notre société offre à une clientèle de moyennes et grandes entreprises des prestations de services informatiques. La culture d’entreprise est orientée vers l’Engagement, le Travail d’équipe et le Respect avec la possibilité pour chacun de s’épanouir et de progresser.Missions:Développement Front-end : Création de l'interface utilisateur (UI) et expérience utilisateur (UX) en utilisant des technologies comme HTML, CSS, JavaScript, et des frameworks (React, Vue, Angular).Développement Back-end : Développement de la logique métier, des serveurs et des API (Node.js, Python, Ruby, PHP, Java).Gestion des bases de données : Conception, structuration et interrogation de bases de données (SQL, NoSQL).Intégration et API : Connexion des différentes parties de l'application et intégration de services tiers.Maintenance et Optimisation : Debugging, re factoring de code, et amélioration des performances.Méthodes Agiles : Participation aux réunions de projet (Scrum/Kanban) et aux revues de code.Déploiement (DevOps de base) : Gestion de la mise en ligne, parfois en utilisant des services cloud comme AWS.",
+    "date": "14.03.2026",
+    "lieu": "Rabat-Salé-Kénitra",
+    "competences": [
+      "JAVA",
+      "DJANGO",
+      "SCRUM",
+      "API",
+      "MONGODB",
+      "SPRING",
+      "CSS",
+      "CSS3",
+      "DOCKER",
+      "LARAVEL",
+      "NOSQL",
+      "HTML",
+      "NODE JS",
+      "JAVASCRIPT",
+      "PYTHON",
+      "REACT",
+      "POSTGRESQL",
+      "SQL",
+      "GIT",
+      "FULL STACK"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/responsable-paie-administration-rh-casablanca-9279952",
+    "titre": "Responsable Paie et Administration R.H - Casablanca",
+    "entreprise": "SALAM GAZ",
+    "description": "Nous sommes à la recherche d'unResponsable Paie et Administration R.HMissions :Le Responsable Paie & Administration RH aura pour missions :Superviser l’ensemble du processus de paie : collecte des éléments variables, établissement des bulletins de paie, calcul des heures supplémentaires, congés, absences, arrêts maladie, etc.Gérer les déclarations sociales et fiscales : charges sociales, impôts liés à la paie, avantages sociaux.Assurer la conformité avec la législation du travail / droit social du pays (Maroc) : conventions collectives, obligations légales, contrôles, audits.Administrer la gestion du personnel : contrats de travail, avenants, dossier administratif des salariés, suivi des absences / congés / temps de travail.Mettre en place / paramétrer / administrer le Système d’Information RH lié à la paie.Veille sociale et réglementaire : suivre les évolutions légales, s’assurer que les pratiques internes soient à jour.Piloter ou coordonner l’équipe paie / administration du personnel : formation, suivi, gestion des délais, contrôle qualité.Optimiser les process : proposer des améliorations pour fiabiliser, accélérer et sécuriser les opérations de paie et d’administration RH.Répondre aux interrogations des salariés / managers sur les questions paie, contrats, avantages sociaux.Reporting : établir les indicateurs RH pertinents (masse salariale, coût des charges, absences, turnover…), éventuellement le bilan social.",
+    "date": "25.03.2026",
+    "lieu": "Casablanca-Mohammedia",
+    "competences": [
+      "Administration RH",
+      "Bilan Social",
+      "Indicateurs RH",
+      "Formation",
+      "Administration du Personnel",
+      "Administration RH"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/agent-administratif-logistique-parc-automobile-casablanca-9278614",
+    "titre": "Agent Administratif Logistique Parc Automobile  - Casablanca",
+    "entreprise": "TECTRA CASA BOURGOGNE – RECRUTEMENT",
+    "description": "Pour l'un de ces clients concessionnaire d'automobile ; Tectra recrute 2Agents Administratifs Logistique Parc Automobile.Mission principales :Gestion Administrative :Suivi des documents (cartes grises, assurances, contrôle technique), gestion des cartes carburant, des contraventions, des sinistres, des factures.Logistique & Organisation :Planification des affectations, optimisation des plannings, gestion des livraisons/restitutions, allocation des ressources.Suivi Technique :S'assurer de la conformité réglementaire (VGP, etc.), organiser l'entretien et les réparations, vérifier les niveaux et l'équipement des véhicules.Relationnel & Reporting :Conseiller les utilisateurs, informer la direction, rédiger des rapports d'activité.",
+    "date": "24.03.2026",
+    "lieu": "Casablanca-Mohammedia",
+    "competences": [
+      "Comptabilité",
+      "Finance",
+      "Gestion",
+      "Comptabilité"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/technicien-informaticien-casablanca-9287788",
+    "titre": "Technicien Informaticien - Taliouine - Askaoun",
+    "entreprise": "AYA GOLD AND SILVER",
+    "description": "Nous sommes à la recherche d'unTechnicien Informaticien.Mission:Assurer l’installation et la garantie de fonctionnement des équipements informatiques et téléphoniques (matériels et logiciels) liés au poste de travailResponsabilités :Préparer et installer le poste de travail ;Assurer la maintenance préventive et corrective des ordinateurs ;Contribuer à la gestion du parc ;Assure une veille technologique sur les ordinateurs et les logiciels ;Assurer le support auprès des utilisateurs ;Contribuer à la disponibilité, confidentialité et l’intégrité du système d’information ;Principales activités :Installation initiale des équipements informatiques et téléphoniques (applications, utilitaires, …) ;Installation des mises à jour des applications et utilitaires ;Télédistribution des applications, Antivirus suivant un plan de déploiement ;Détection et limitation des virus ;Traitement des incidents à distance sur les ordinateurs, réseaux, messagerie ou téléphonie ;Administration de la messagerie sur la partie cliente du poste de travail (connexion, exploitation) ;Aide à la prise en main des équipements et logiciels installés ;Remonter les incidents de sécurités.",
+    "date": "02.04.2026",
+    "lieu": "Agadir - Marrakech-Safi",
+    "competences": [
+      "TCP IP",
+      "MICROSOFT"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/community-manager-rabat-8726729",
+    "titre": "Community Manager - Rabat",
+    "entreprise": null,
+    "description": "Nous sommes à la recherche d’unCommunity Managerenthousiaste et créatif pour rejoindre notre équipe à Rabat. Vous serez responsable de la gestion de la présence en ligne de notre entreprise et de l’animation de nos réseaux sociaux. Ce poste est destiné à un profil moyen, ayant une première expérience dans la gestion de communautés et souhaitant développer ses compétences dans un environnement dynamique.Missions :Gérer et animer les comptes sur les réseaux sociaux (Facebook, Instagram, LinkedIn, Twitter, etc.).Créer du contenu engageant et visuel (texte, image, vidéo) adapté à chaque plateforme.Assurer la modération des commentaires et messages.Interagir avec les abonnés et maintenir une relation active avec la communauté.Analyser les performances des actions menées et proposer des ajustements (reporting mensuel).Participer à la stratégie de communication digitale et à la gestion des campagnes publicitaires.Assurer une veille constante sur les tendances et l'actualité des réseaux sociaux.",
+    "date": "24.03.2026",
+    "lieu": "Rabat-Salé-Kénitra",
+    "competences": [
+      "Communication",
+      "Communication Digitale",
+      "Facebook Ads",
+      "Marketing",
+      "Stratégie de Communication",
+      "Community Management",
+      "Publicité"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/professeur-permanent-informatique-casablanca-9261121",
+    "titre": "Professeur Permanent en Informatique - Casablanca",
+    "entreprise": "EDVANTIS HIGHER EDUCATION GROUP",
+    "description": "Dans le cadre de son développement, le groupeEdvantisrecrute pour son campus ISGA à Casablanca desEnseignants Chercheurs Permanents en Informatique.Missions:Enseignement (cours et des Travaux Dirigés) et autres activités pédagogiquesEncadrement pédagogique et suivi de projets étudiantsRecherche scientifique dans le domaine de spécialisation.",
+    "date": "11.03.2026",
+    "lieu": "Casablanca-Mohammedia",
+    "competences": []
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/responsable-developpeur-full-stack-hf-rabat-9264388",
+    "titre": "Responsable Développeur Full Stack (H/F)  - Rabat",
+    "entreprise": "YCN DEV MAROC",
+    "description": "Notre société, filiale d'une entreprise française spécialisée danslaDigital et la Data B2Bdepuis 25 ans, recrute unResponsable Développeur Full Stackafin de renforcer son équipe IT. Notre société offre à une clientèle de moyennes et grandes entreprises des prestations de services informatiques. La culture d’entreprise est orientée vers l’Engagement, le Travail d’équipe et le Respect avec la possibilité pour chacun de s’épanouir et de progresser.Missions:Direction Technique et ArchitectureConception de l'architecture : Définir la structure globale de l'application (choix des frameworks, bases de données, micro services) pour garantir la scalabilité et la performance.Veille technologique : Identifier les nouveaux outils ou langages pertinents pour moderniser la stack technique de l'entreprise.Garant de la qualité : Mettre en place des normes de codage, superviser les revues de code (code reviews) et s'assurer du respect des bonnes pratiques de sécurité.Résolution de problèmes complexes : Intervenir en tant qu'expert sur les bugs critiques ou les défis techniques que l'équipe ne parvient pas à résoudre seule.Management et Mentorat :Encadrement de l'équipe : Guider et motiver les développeurs Full Stack juniors et seniors dans leur travail quotidien.Montée en compétences : Assurer le mentorat des membres de l'équipe pour les aider à progresser sur le Front-end, le Back-end ou le DevOps.Recrutement : Participer à l'évaluation technique des candidats pour renforcer l'équipe de développement.Gestion de Projet et Coordination :Planification technique : Estimer la charge de travail, découper les projets en tâches (Sprints) et suivre l'avancement des développements.Interface avec les parties prenantes : Traduire les besoins fonctionnels des clients ou du product owner en spécifications techniques réalisables.Méthodologie Agile : Garantir l'application des méthodes de travail (Scrum, Kanban) pour assurer des livraisons régulières et de qualité.Développement OpérationnelDéveloppement critique : Même s'il délègue beaucoup, le responsable continue de coder sur les parties les plus sensibles ou structurantes de l'application.Automatisation (DevOps) : Superviser la mise en place des pipelines d'intégration et de déploiement continu (CI/CD) ainsi que la gestion des infrastructures cloud",
+    "date": "14.03.2026",
+    "lieu": "Rabat-Salé-Kénitra",
+    "competences": [
+      "PYTHON",
+      "MYSQL",
+      "JAVA",
+      "REACT",
+      "SQL",
+      "MONGODB",
+      "FULL STACK",
+      "NOSQL",
+      "SCRUM",
+      "AGILE",
+      "HTML",
+      "JAVASCRIPT",
+      "CSS",
+      "NODE JS",
+      "GIT"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/lead-developpeur-java-jee-hf-8338274",
+    "titre": "Lead Développeur Java JEE (H/F)",
+    "entreprise": "AFRICASHORE",
+    "description": "Nous recherchons unLead Développeur Java JEE (H/F)pour notre client, une société multinationale dans le domaine des services informatiques.Poste & Mission :Intégré-e dans la Direction R&D au sein du service d’Architecture Technique des équipes de Développement, en charge de domaines techniques précis, votre périmètre comprend.Conception et développements techniques sur des technologies java/JEE ;Evolution et maintenance du Framework du progiciel ;Instruction et débogage des problèmes techniques avancés ;Participation au chiffrage et à la conception des composants techniques ;Support niveau 3 aux développeurs métier sur leurs questions liées au Framework ;Instruction des problèmes de performances Java/Base de données/réseau ;Participation à la démarche qualité ;Réalisation de prototypes.Votre parcours d’intégration débutera par une formation à notre solution et aux métiers de l’assurance.",
+    "date": "13.04.2026",
+    "lieu": "Agadir - Béni Mellal-Khénifra - Casablanca-Mohammedia - Dakhla - Errachidia - Fès - Guelmim - Laâyoune - Marrakech-Safi - Meknès - Oujda - Rabat-Salé-Kénitra - Settat - Tanger-Tétouan-Al Hoceïma - International",
+    "competences": [
+      "MAVEN",
+      "UML",
+      "AGILE",
+      "SPRING",
+      "JENKINS",
+      "HIBERNATE",
+      "JAVA JEE",
+      "HTML",
+      "JAVASCRIPT",
+      "JUNIT",
+      "ECLIPSE",
+      "CSS",
+      "JAVA"
+    ]
+  },
+  {
+    "url": "https://www.emploi.ma/offre-emploi-maroc/technicien-it-help-desk-casablanca-9260419",
+    "titre": "Technicien IT Help Desk - Casablanca",
+    "entreprise": "TECTRA",
+    "description": "Nous sommes à la recherche d'unTechnicien IT Help Desk.Missions :Assurer le support technique aux utilisateurs (à distance et sur site).Installer, configurer et maintenir le matériel informatique.Diagnostiquer et résoudre les incidents matériels et logiciels.Gérer et suivre les tickets d’assistance.Veiller à la satisfaction des utilisateurs.",
+    "date": "10.03.2026",
+    "lieu": "Casablanca-Mohammedia",
+    "competences": [
+      "TCP IP"
+    ]
+  }
+]
